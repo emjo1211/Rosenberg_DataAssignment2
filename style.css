@@ -1,0 +1,32 @@
+ h1 {
+    font-size: 25pt;
+    text-align: center;
+    font-weight: extra bold;
+    font-family: Arial, sans-serif;
+}
+
+p {
+font-family: Arial, sans-serif;
+font-size: 12pt;
+text-wrap: left;
+}
+
+        body {
+            background: linear-gradient(to bottom, lightblue, blue, darkblue);
+            margin: 1; 
+            height: 300vh; 
+            color: white; 
+            font-family: Arial, sans-serif; 
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: left;
+            text-align: left;
+        }
+.image-container img {
+    width: 400px; 
+    height: auto; 
+    border: 2px solid #000; 
+    border-radius: 10px; 
+    align: center;
+}
