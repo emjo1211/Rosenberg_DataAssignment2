@@ -2,7 +2,7 @@
     font-size: 25pt;
     text-align: center;
     font-weight: extra bold;
-    font-family: Arial, sans-serif;
+    font-family: courier new;
 }
 
 p {
@@ -23,10 +23,31 @@ text-wrap: left;
             justify-content: left;
             text-align: left;
         }
-.image-container img {
+
+.image-container img.src {
     width: 400px; 
     height: auto; 
     border: 2px solid #000; 
     border-radius: 10px; 
     align: center;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h2 { 
+  font-size: 14pt;
+  text-align: center;
+  font-weight: italic;
+  font-family: Arial, sans-serif, italic;
+}
+
+
+figcaption {
+  text-align: center;
 }
